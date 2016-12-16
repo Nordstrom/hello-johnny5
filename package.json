@@ -1,0 +1,23 @@
+{
+  "name": "hello-johnny5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nordstrom/hello-johnny5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nordstrom/hello-johnny5/issues"
+  },
+  "homepage": "https://github.com/Nordstrom/hello-johnny5#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mocha": "^3.2.0"
+  }
+}
