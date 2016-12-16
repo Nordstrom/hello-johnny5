@@ -6,6 +6,7 @@ var port = 8000;
 
 var text = "Hello, World!";
 var toggle = true;
+
 app.get("/api/v1/text", function(req, res){
     return res.status(200).send({text: text});
 });
