@@ -19,6 +19,7 @@ app.get("/api/v1/change", function(req, res){
         text = "Hello, World";
         toggle = true;
     }
+    return res.status(200).send({})
 });
 
 app.use("/", express.static('public'));
